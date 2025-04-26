@@ -1,17 +1,51 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="/">f8 Education</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://scontent.fsgn7-2.fna.fbcdn.net/v/t39.30808-1/430866179_1851445898651333_169273805358911967_n.jpg?stp=cp6_dst-jpg_s40x40_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGMZTEOLNP7QusEQ7KYXZm3ZZqWsBlO8ltlmpawGU7yW4L-ecYhjDAw6lsOCEtYLhlTTnR0iF0W29BxHMEXXBCR&_nc_ohc=yESpaNjCjHcQ7kNvwH5fyVf&_nc_oc=Adn6DUFi0-baOfcszxXcLzVrEyGyK8nQMCIFTJ4WXiq_lfTmyVKwhF2AjxlC9W7-J-OibyJZ756S9flDN2zEIeHt&_nc_zt=24&_nc_ht=scontent.fsgn7-2.fna&_nc_gid=zZgfVKEWP_IzdneRRfws8w&oh=00_AfHXG2zaVcf5zv7p4N5Kvj3Cz_CUWGsxaVyDAr0KFCYSkw&oe=68124EF9"
+              alt=""
+              class="user-avatar"
+            />
+            AnhThu
+          </a>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="/courses/create">Đăng khóa học</a>
+            </li>
+            <div class="dropdown-divider"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="/me/stored/courses">Khóa học của tôi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/me/stored/news">Bài viết của tôi</a>
+            </li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" href="/">Đăng xuất</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+      </ul>
     </div>
   </div>
 </nav>

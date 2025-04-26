@@ -25,11 +25,13 @@
   "dependencies": {
     "express": "^5.1.0",
     "express-handlebars": "^8.0.1",
-    "mongoose": "^8.13.2"
+    "method-override": "^3.0.0",
+    "mongoose": "^8.13.2",
+    "mongoose-slug-updater": "^3.3.0"
   },
   "devDependencies": {
-    "handlebars": "^4.5.0",
     "-": "^0.0.1",
+    "handlebars": "^4.5.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.6",
     "prettier": "^3.5.3",
